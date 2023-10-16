@@ -1,5 +1,6 @@
 # Stm32_io_rust 
 Small biolerplate for an stm32h7xx nucleo for io from rx and tx and rtt. 
+
 This code should run on any stm32h7xx nucleo. I did not test for other boards.
 
 ## Requirments 
@@ -16,8 +17,11 @@ If you're running windows I would reccomend to run WSL and to install ```usbipd`
 
 ## Usefull Links
 [Usbipd](https://learn.microsoft.com/en-us/windows/wsl/connect-usb)
-[Minicom]([https://learn.microsoft.com/en-us/windows/wsl/connect-usb](https://www.cyberciti.biz/tips/connect-soekris-single-board-computer-using-minicom.html)https://www.cyberciti.biz/tips/connect-soekris-single-board-computer-using-minicom.html)
+
+[Minicom](https://learn.microsoft.com/en-us/windows/wsl/connect-usb](https://www.cyberciti.biz/tips/connect-soekris-single-board-computer-using-minicom.html)https://www.cyberciti.biz/tips/connect-soekris-single-board-computer-using-minicom.html)
+
 [Wsl](https://learn.microsoft.com/en-us/windows/wsl/install)
-The [memory.x](https://github.com/astraw/nucleo-h743zi)file was taken from another boilerplate repository for the nucleo
+
+The [memory.x](https://github.com/astraw/nucleo-h743zi) file was taken from another boilerplate repository for the nucleo
 
 
