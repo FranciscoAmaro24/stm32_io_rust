@@ -22,6 +22,6 @@ If you're running windows I would reccomend to run WSL and to install ```usbipd`
 
 [Wsl](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-The [memory.x](https://github.com/astraw/nucleo-h743zi) file was taken from another boilerplate repository for the nucleo
+The [memory.x](https://github.com/astraw/nucleo-h743zi) file was taken from another boilerplate repository for the nucleo-h743zi
 
 
