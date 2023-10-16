@@ -15,6 +15,11 @@ I would also recommend to install minicom on your kernel so input from the UART 
 ## Windows
 If you're running windows I would reccomend to run WSL and to install ```usbipd``` so you can give access to your usb ports via the wsl
 
+### Debug
+Using `Minicom` with a split terminal is a nice way to debug it.
+
+On the kernel run ```minicom -D /dev/ttyACM0 -b 115200``` or replace ttyACM0 by the tyy port that the usb is connected
+
 ## Usefull Links
 [Usbipd](https://learn.microsoft.com/en-us/windows/wsl/connect-usb)
 
