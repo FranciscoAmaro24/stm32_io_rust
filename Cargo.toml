@@ -1,0 +1,24 @@
+[package]
+name = "hello_rtt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7.3"
+# embedded-hal = "0.2"
+stm32h7xx-hal = { version = "0.14.0", features = ["rt","stm32h742"] }
+rtt-target = {version= "0.3.1",  features = ["cortex-m"]}
+panic-halt = "0.2.0"
+panic-probe = { version = "0.3.1", features = ["print-rtt"] }
+cortex-m-semihosting = "0.5.0"
+#ascii = { version = "1.1", default-features = false, features = ["alloc"] }
+
+[profile.dev]
+debug = 1 # default is `true`; not needed if not already overridden
+overflow-checks = true
+
+[profile.release]
+debug = 1 # default is `false`; using `true` is also OK as symbols reside on the host, not the target
+overflow-checks = true
+
