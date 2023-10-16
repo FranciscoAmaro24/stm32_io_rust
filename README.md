@@ -1,5 +1,5 @@
 # Stm32_io_rust 
-Small biolerplate for an stm32h7xx nucleo for io from rx and tx and rtt. 
+Small biolerplate for an stm32h7xx nucleo for io between UART and RTT channels, (rx/tx and rtt). 
 
 This code should run on any stm32h7xx nucleo. I did not test for other boards.
 
