@@ -29,4 +29,6 @@ On the kernel run ```minicom -D /dev/ttyACM0 -b 115200``` or replace ttyACM0 by 
 
 The [memory.x](https://github.com/astraw/nucleo-h743zi) file was taken from another boilerplate repository for the nucleo-h743zi
 
+Dont forget to add the target
+
 
